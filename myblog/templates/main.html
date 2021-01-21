@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class= "kmg">
+<p class="hi"><strong>좋은 저녁입니다! 멋-!하-!</strong></p>
+<div class = "container" >
+  <div class="cardd">
+      <img src="{% static 'images/ps1.jpg' %}" class="card-img-top" alt="고" style="height: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">안녕하세요</h5>
+        <p class="card-text"><strong>뭘 만들어야 할지</strong></p>
+      </div>
+    </div>
+    <div class="cardd">
+      <img src="{% static 'images/ps2.jpg' %}" class="card-img-top" alt="명" style="height: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">제 페이지에</h5>
+        <p class="card-text"><strong>끝내 정하지 못해서</strong></p>
+      </div>
+    </div>
+    <div class="cardd">
+      <img src="{% static 'images/ps3.jpg' %}" class="card-img-top" alt="기" style="height: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">와주셔서</h5>
+        <p class="card-text"><strong>그냥 제가 유용하게 쓸 수 있는</strong></p>
+      </div>
+    </div>
+    <div class="cardd">
+      <img src="{% static 'images/ps4.jpg' %}" class="card-img-top" alt="핳" style="height: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">감사합니다</h5>
+        <p class="card-text"><strong>사이트를 만들었습니다.</strong></p>
+      </div>
+    </div>
+</div>
+</div>
+
+{% endblock %}
+

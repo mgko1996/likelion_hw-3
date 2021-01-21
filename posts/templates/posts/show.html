@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<br><br><br><br>
+<h2 style = "color: powderblue; font-weight: bold; text-align: center;">상세보기 페이지</h2>
+<br><br><br><br>
+<h5 style = "font-weight: bold;">이름 : {{ post.title }} </h5><br>
+<h5 style = "font-weight: bold;">메세지 : {{ post.content }} </h5><br>
+<h5 style = "font-weight: bold;">작성 시각 : {{ post.created_at }} </h5><br>
+{% endblock %}

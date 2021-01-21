@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href='{% url "main" %}'>고명기</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href='{% url "main" %}'>home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href='{% url "introduction:profile" %}'>introduction</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.op.gg/summoner/userName=%EB%B6%95%EC%96%B4%EC%97%91%EA%B8%B0%EC%8A%A4"  target="_blank">롤</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.youtube.com/" target="_blank">유튜브</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://eclass.dongguk.edu/index.jsp">이클래스</a>
+      </li>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href='{% url "cld:calendar" %}'>스케줄표</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href='{% url "posts:main" %}'>메세지
+        </a>
+      </li>
+    </ul>
+    
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="이걸 어떻게 쓴담..">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">작동x</button>
+    </form>
+  </div>
+</nav>
